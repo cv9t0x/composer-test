@@ -1,0 +1,25 @@
+{
+    "name": "cv9t/composer-test",
+    "autoload": {
+        "psr-4": {
+            "Cv9t\\ComposerTest\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "sviatoslav",
+            "email": "sviatoslavnazin@gmail.com"
+        }
+    ],
+    "require": {
+        "league/omnipay": "^3.2",
+        "omnipay/paypal": "^3.0",
+        "mpdf/mpdf": "^5.7",
+        "illuminate/database": "^8.83",
+        "phpunit/phpunit": "^5.5",
+        "hwi/oauth-bundle": "^1.4",
+        "symfony/mailer": "^5.4",
+        "aivanov-dev/azure-storage-legacy-php": "^2.01",
+        "phpoffice/phpexcel": "^1.8"
+    }
+}
